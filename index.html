@@ -1,0 +1,66 @@
+﻿<html>
+<head>
+    <title>Calculadora</title>
+    <!--con link para enlazar y href para relacionar una hoja con otra---->
+    <script type="text/javascript" src="Script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <!--Style afecta todos los h3 en este caso-->
+    <!--Script donde va lenguaje de programacion javascript y la extencion es .js-->
+
+
+</head>
+<!--primero se crea la funcion y luego se llama una funcion se escribe el nombre de la funcion();ahora para enlazar el boton con el resultado-->
+<body>
+
+    <div class="Calculadora">
+
+        <h3>Calculadora SAMY</h3>
+        <!--para hacer una division de la pantalla y los botones en la calculadora, CLASES, FUNCIONES, PARAMETROS Y TALLER/-->
+        <div>
+            <input id="num1" type="text" placeholder="0" readonly />
+        </div>
+
+        <div>
+            <button id="bt1" onclick="escribir(1)">1</button>
+            <button id="bt2" onclick="escribir(2)">2</button>
+            <button id="bt3" onclick="escribir(3)">3</button>
+            <button id="bt4" onclick="escribir(4)">4</button>
+
+
+        </div>
+        <div>
+            <button id="bt5" onclick="escribir(5)">5</button>
+            <button id="bt6" onclick="escribir(6)">6</button>
+            <button id="bt7" onclick="escribir(7)">7</button>
+            <button id="bt8" onclick="escribir(8)">8</button>
+        </div>
+        <div>
+            <button id="bt9" onclick="escribir(9)">9</button>
+            <button id="bt0" onclick="escribir(0)">0</button>
+            <button id="btnsumar" onclick="escribir('+')">+</button>
+            <button id="btnrestar" onclick="escribir('-')">-</button>
+
+            <div>
+
+            </div>
+            <button id="btmultiplicar" onclick="escribir('*')">X</button>
+            <button id="btndividir" onclick="escribir('/')">÷</button>
+            <button id="btnporcentaje" onclick="escribir('%')">%</button>
+            <button id="borrar" onclick="borrar()" class="col-2">C</button>
+            
+            <div>
+                <button id="raizcuadrada" onclick="raizcuadrada('=raizcuadrada')">&#8730</button>
+                <button id="borraUno" onclick="borraUno('=DELETE')">&#X2190</button>
+                <button id="resultado" onclick="operacion('=')">=</button>
+
+            </div>
+
+            <h5>No hay cosas imposibles,</h5>
+            <h5>Solo personas incapaces</h5>
+
+        </div>
+        
+    </div>
+
+</body>
+</html>

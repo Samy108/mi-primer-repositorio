@@ -1,0 +1,49 @@
+﻿<!--
+}
+h3 ´{
+    color: black
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    table-layout: center;
+    
+}
+input {
+    background-color: cornflowerblue;
+    color: darkblue;
+    border-block-color:darkturquoise;
+}
+input {
+    background-color: aliceblue;
+    color:blueviolet;
+    text-align:right;
+}
+
+body{
+    margin: 100px;
+    background-color: pink;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:150px;
+    
+    }
+.Calculadora {
+    border-radius: 10px;
+    border:5px solid red;
+    box-shadow:5px 5px 5px 5px;
+    width:200px;
+    
+}
+button {
+    margin: 5px;
+    width: 35px;
+    border-radius: 20px;
+    background-color: darkorange;
+    color: black;
+    
+}
+
+
